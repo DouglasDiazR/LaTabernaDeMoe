@@ -1,0 +1,20 @@
+.cardDiv {
+  display: flex;
+  background-color: #fdd835;
+  opacity: 90%;
+  margin-top: 50px;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+  color: #e91e63;
+  text-align: justify;
+  img {
+    width: 150px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+}

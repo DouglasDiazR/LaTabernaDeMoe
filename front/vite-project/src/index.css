@@ -1,0 +1,227 @@
+/* reset.css */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  margin: 0;
+  background-image: url("https://estaticosgn-cdn.deia.eus/clip/51b5ecf5-b346-4b39-8ebb-b1e3fc5c445b_source-aspect-ratio_default_0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.appDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  background-color: #fdd835;
+  opacity: 90%;
+  margin-top: 25px;
+  padding: 50px 50px 25px 50px;
+  width: 400px;
+  border-radius: 15px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-align: justify;
+  color: #2196f3;
+  p {
+    color: #e91e63;
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  input {
+    background-color: #ff9800;
+    border-style: none;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 30px;
+    height: 25px;
+  }
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 42px;
+  font-family: "Luckiest Guy", cursive;
+  color: #e91e63;
+  text-shadow: #2196f3;
+}
+
+button {
+  margin-top: 25px;
+  margin-right: 20px;
+  background-color: #2196f3;
+  border-radius: 5px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-align: justify;
+  color: #ffffff;
+  &:hover {
+    background-color: #e91e63;
+    cursor: pointer;
+  }
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+select {
+  background-color: #ff9800;
+  border-style: none;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-top: 30px;
+  height: 25px;
+}
+.aboutDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  opacity: 90%;
+  width: 600px;
+  background-image: url("https://www.chicaneshowbags.com.au/wp-content/uploads/2023/03/Duff-Beer-Showbag.jpg");
+  p {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: justify;
+  }
+}

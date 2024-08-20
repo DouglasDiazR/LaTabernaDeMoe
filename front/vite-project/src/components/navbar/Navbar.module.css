@@ -1,0 +1,55 @@
+.navbarDiv {
+  background-color: #2196f3;
+  opacity: 95%;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  height: 120px;
+  border-radius: 10px;
+  margin-top: 50px;
+  width: 85%;
+}
+
+.logDiv {
+  display: flex;
+  img {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+.menuDiv {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Luckiest Guy", cursive;
+  span:hover {
+    color: #fdd835;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.registerDiv {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  font-size: 24px;
+  font-family: "Luckiest Guy", cursive;
+  width: 25%;
+  span:hover {
+    color: #fdd835;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
